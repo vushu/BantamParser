@@ -1,0 +1,13 @@
+name: pratt_parser
+version: 0.1.0
+
+authors:
+  - davu <davu@mir-robots.com>
+
+targets:
+  pratt_parser:
+    main: src/pratt_parser.cr
+
+crystal: 1.6.2
+
+license: MIT

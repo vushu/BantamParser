@@ -1,0 +1,5 @@
+require "./precedence"
+require "./expressions"
+require "./parselets"
+require "./parser"
+require "./token"
