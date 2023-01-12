@@ -28,7 +28,6 @@ module PrattParser
       puts "current precedence: #{precedence}"
       while precedence < get_precedence
         # if get_precedence is 0 we don't enter
-        puts "hehehehehehe"
         token = consume
 
         unless @infix_parselets.has_key? token.type
